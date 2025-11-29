@@ -62,6 +62,16 @@ You can also test the parameters manually in the Windows console by simply enter
 * Type a command (e.g., ```rundll32.exe shell32.dll,Control_RunDLL``` to open the control panel).
 * Hit Enter.
 
+# Virus false alarm:
+It's possible that your antivirus program will raise an alert after building the EXE file, as runtime linking should be enabled in this project. If you want to avoid this, you should disable it in the compiler project menu (see image).
+
+</br>
+
+![RAD](https://github.com/user-attachments/assets/291ec78c-53e8-4695-a6bc-885b3032df15)
+
+</br>
+
+
 
 
 
