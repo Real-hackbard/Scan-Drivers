@@ -29,7 +29,7 @@ This program demonstrates how to read the functions of a driver file and execute
 
 The program contains 30 examples of how to start the functions. By extending the parameters, the respective actions can be performed. For example, to start the network environment, only one line of code is needed:
 
-```
+```pascal
 Rundll32.exe shell32.dll,Control_RunDLL ncpa.cpl
 ```
 
