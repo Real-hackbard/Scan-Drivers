@@ -19,7 +19,7 @@ A DLL that contains only resources can be called a resource DLL. Examples includ
 
 The file format of a DLL is the same as for an executable (a.k.a. EXE). The main difference between a DLL file and an EXE file is that a DLL cannot be run directly since the operating system requires an [entry point](https://en.wikipedia.org/wiki/Entry_point) to start execution. Windows provides a utility program ```(RUNDLL.EXE/RUNDLL32.EXE)``` to execute a function exposed by a DLL. Since they have the same format, an EXE can be used as a DLL. Consuming code can load an EXE via the same mechanism as loading a DLL.
 
-
+This program demonstrates how to read the functions of a driver file and execute them with a parameter. For this to work, the execution and the driver must be located in the same folder. The advantage is that very little code is needed to, for example, address the entire Windows environment. In this case, it's the RunDll32.exe and the Shell32.dll files.
 
 
 
