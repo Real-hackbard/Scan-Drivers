@@ -73,5 +73,6 @@ It's possible that your antivirus program will raise an alert after building the
 
 However, you might encounter access problems to the system path if your Windows account is restricted. This information is provided without guarantee and must be verified by testing the program.
 
+It is not really possible to unify the various Windows accounts and access rights with this project, as the diversity of the different accounts cannot be foreseen.
 
 
