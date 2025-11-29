@@ -21,6 +21,21 @@ The file format of a DLL is the same as for an executable (a.k.a. EXE). The main
 
 This program demonstrates how to read the functions of a driver file and execute them with a parameter. For this to work, the execution and the driver must be located in the same folder. The advantage is that very little code is needed to, for example, address the entire Windows environment. In this case, it's the RunDll32.exe and the Shell32.dll files.
 
+</br>
+
+![ScanDrivers](https://github.com/user-attachments/assets/7cd1a395-0569-46bd-8d53-091c30d99f8a)
+
+</br>
+
+The program contains 30 examples of how to start the functions. By extending the parameters, the respective actions can be performed. For example, to start the network environment, only one line of code is needed:
+
+```
+Rundll32.exe shell32.dll,Control_RunDLL ncpa.cpl
+```
+
+The program no longer needs to search for its target, but starts it directly from the driver file and can access the environment.
+
+
 
 
 
