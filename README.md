@@ -35,6 +35,25 @@ Rundll32.exe shell32.dll,Control_RunDLL ncpa.cpl
 
 The program no longer needs to search for its target, but starts it directly from the driver file and can access the environment.
 
+# Examples:
+
+| function | command | 
+| :------------ | :------------ | 
+| Launch the About Windows screen     | ```Rundll32.exe shell32.dll,ShellAbout```     |
+| Launch the Forgotten Password Wizard     | ```Rundll32.exe keymgr.dll,PRShowSaveWizardExW```     |
+| Force execute pending idle tasks     | ```Rundll32.exe advapi32.dll,ProcessIdleTasks```     |
+| Set Program Access and Computer Defaults     | ```Rundll32.exe shell32.dll,Control_RunDLL appwiz.cpl,,3```     |
+|View Windows Features     | ```Rundll32.exe shell32.dll,Control_RunDLL appwiz.cpl,,2```     |
+| Go to System Properties – Computer Name tab     | ```Rundll32.exe shell32.dll,Control_RunDLL Sysdm.cpl,,1```     |
+|Go to System Properties – Hardware tab     | ```Rundll32.exe shell32.dll,Control_RunDLL Sysdm.cpl,,2```     |
+| Go to System Properties – Advanced tab     | ```Rundll32.exe shell32.dll,Control_RunDLL Sysdm.cpl,,3```     |
+| Go to System Properties – System Protection tab     | ```Rundll32.exe shell32.dll,Control_RunDLL Sysdm.cpl,,4```     |
+| Go to System Properties – Remote tab     | ```Rundll32.exe shell32.dll,Control_RunDLL Sysdm.cpl,,5```     |
+| Open list of User Accounts     | ```Rundll32.exe shell32.dll,Control_RunDLL nusrmgr.cpl```     |
+
+
+
+
 
 
 
