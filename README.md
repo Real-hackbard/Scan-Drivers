@@ -51,6 +51,9 @@ The program no longer needs to search for its target, but starts it directly fro
 | Go to System Properties – Remote tab     | ```Rundll32.exe shell32.dll,Control_RunDLL Sysdm.cpl,,5```     |
 | Open list of User Accounts     | ```Rundll32.exe shell32.dll,Control_RunDLL nusrmgr.cpl```     |
 
+</br>
+
+To modify the respective environment, only the parameter for the required function needs to be extended. In practice, the program lets Windows work for itself without requiring much programming.
 
 
 
