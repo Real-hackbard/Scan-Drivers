@@ -11,7 +11,13 @@
 
 </br>
 
+A dynamic-link library (DLL) is a [shared library](https://en.wikipedia.org/wiki/Shared_library) in the Microsoft Windows or OS/2 operating system. A DLL can contain [executable code](https://en.wikipedia.org/wiki/Executable) (functions), data, and resources.
 
+A DLL file often has file extension .dll even though this is not required. The extension is sometimes used to describe the content of the file. For example, .ocx is a common extension for an ActiveX control and .drv for a legacy (16-bit) device driver.
+
+A DLL that contains only resources can be called a resource DLL. Examples include an icon library, with common extension .icl, and a font library with common extensions .fon and .fot.
+
+The file format of a DLL is the same as for an executable (a.k.a. EXE). The main difference between a DLL file and an EXE file is that a DLL cannot be run directly since the operating system requires an [entry point](https://en.wikipedia.org/wiki/Entry_point) to start execution. Windows provides a utility program (RUNDLL.EXE/RUNDLL32.EXE) to execute a function exposed by a DLL. Since they have the same format, an EXE can be used as a DLL. Consuming code can load an EXE via the same mechanism as loading a DLL.
 
 
 
