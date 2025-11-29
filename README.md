@@ -55,8 +55,12 @@ The program no longer needs to search for its target, but starts it directly fro
 
 To modify the respective environment, only the parameter for the required function needs to be extended. In practice, the program lets Windows work for itself without requiring much programming.
 
+You can also test the parameters manually in the Windows console by simply entering them, such as:
 
-
+### Run rundll32 from the Run dialog:
+* Press the Windows key + R.
+* Type a command (e.g., ```rundll32.exe shell32.dll,Control_RunDLL``` to open the control panel).
+* Hit Enter.
 
 
 
