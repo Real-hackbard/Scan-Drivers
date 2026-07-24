@@ -89,6 +89,8 @@ To obtain genuine write permissions in the system directory, your application mu
 * **3. Select the Manifest item under Application.**  
 * **4. Set the Execution Level to requireAdministrator.**  
 
+..see Screenshot:
+
 </br>
 
 <img src="https://github.com/user-attachments/assets/3584ef11-4e2e-490e-afd0-aed59c60ad4d" />
