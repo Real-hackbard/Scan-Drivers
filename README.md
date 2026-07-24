@@ -96,11 +96,11 @@ To obtain genuine write permissions in the system directory, your application mu
 <img src="https://github.com/user-attachments/assets/3584ef11-4e2e-490e-afd0-aed59c60ad4d" />
 
 </br>
+</br>
 
 When the app is launched, Windows now automatically prompts the user to confirm administrator rights, or these are automatically granted if the account possesses such rights.
 
 </br>
-
 
 # Virus false alarm:
 It's possible that your antivirus program will raise an alert after building the EXE file, as runtime linking should be enabled in this project. If you want to avoid this, you should disable it in the compiler project menu (see image).
