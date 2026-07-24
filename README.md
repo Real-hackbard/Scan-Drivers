@@ -80,6 +80,19 @@ Windows does not necessarily block access with an error; instead, it silently re
 The result:
 Your application thinks the file has been stored in the actual system directory, but other programs cannot find it there.
 
+### 2. Solution: Force administrator privileges (UAC manifest)
+
+To obtain genuine write permissions in the system directory, your application must be launched with administrator privileges ("Run as administrator"). The cleanest way to achieve this is by using an application manifest:
+
+### 1. Open your project in Delphi.  
+### 2. Go to Project > Options in the menu.  
+### 3. Select the Manifest item under Application.  
+### 4. Set the Execution Level to requireAdministrator.  
+
+</br>
+
+<img src="https://github.com/user-attachments/assets/3584ef11-4e2e-490e-afd0-aed59c60ad4d" />
+
 </br>
 
 
