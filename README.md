@@ -84,10 +84,10 @@ Your application thinks the file has been stored in the actual system directory,
 
 To obtain genuine write permissions in the system directory, your application must be launched with administrator privileges ("Run as administrator"). The cleanest way to achieve this is by using an application manifest:
 
-### 1. Open your project in Delphi.  
-### 2. Go to Project > Options in the menu.  
-### 3. Select the Manifest item under Application.  
-### 4. Set the Execution Level to requireAdministrator.  
+* **1. Open your project in Delphi.**  
+* **2. Go to Project > Options in the menu.**  
+* **3. Select the Manifest item under Application.**  
+* **4. Set the Execution Level to requireAdministrator.**  
 
 </br>
 
