@@ -38,7 +38,7 @@ The program no longer needs to search for its target, but starts it directly fro
 
 # Examples:
 
-| function | command | 
+| Function: | Command: | 
 | :------------ | :------------ | 
 | Launch the About Windows screen     | ```Rundll32.exe shell32.dll,ShellAbout```     |
 | Launch the Forgotten Password Wizard     | ```Rundll32.exe keymgr.dll,PRShowSaveWizardExW```     |
