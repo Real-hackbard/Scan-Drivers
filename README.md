@@ -74,10 +74,10 @@ Here are the key points and solutions for accessing the system directory or bypa
 
 If your Delphi application runs without administrator privileges and attempts to create or modify a file in the system directory, UAC virtualization kicks in.
 
-What happens?  
+### What happens?  
 Windows does not necessarily block access with an error; instead, it silently redirects the write operation to the user's "VirtualStore" (e.g., ```C:\Users\<Name>\AppData\Local\VirtualStore\Windows\System32```).
 
-The result:
+### The result:  
 Your application thinks the file has been stored in the actual system directory, but other programs cannot find it there.
 
 ### 2. Solution: Force administrator privileges (UAC manifest)
