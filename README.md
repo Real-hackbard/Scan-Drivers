@@ -70,7 +70,7 @@ In Delphi, access to the Windows system directory (usually ```C:\Windows\System3
 
 Here are the key points and solutions for accessing the system directory or bypassing permission issues using Delphi:
 
-### 1. The problem: UAC and virtualization
+### 1. The problem: [UAC and virtualization](https://en.wikipedia.org/wiki/User_Account_Control)
 
 If your Delphi application runs without administrator privileges and attempts to create or modify a file in the system directory, UAC virtualization kicks in.
 
