@@ -66,7 +66,7 @@ You can also test the parameters manually in the Windows console by simply enter
 </br>
 
 # Access rights
-In Delphi, access to the Windows system directory (usually C:\Windows\System32) depends heavily on Windows user privileges (UAC), file system virtualization, and the 32-bit/64-bit architecture. Since modern versions of Windows block write access to this directory for standard users, you must explicitly adapt your application.
+In Delphi, access to the Windows system directory (usually ```C:\Windows\System32```) depends heavily on Windows user privileges (UAC), file system virtualization, and the ```32-bit/64-bit architecture```. Since modern versions of Windows block write access to this directory for standard users, you must explicitly adapt your application.
 
 Here are the key points and solutions for accessing the system directory or bypassing permission issues using Delphi:
 
