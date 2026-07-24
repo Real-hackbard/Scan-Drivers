@@ -63,6 +63,16 @@ You can also test the parameters manually in the Windows console by simply enter
 * Type a command (e.g., ```rundll32.exe shell32.dll,Control_RunDLL``` to open the control panel).
 * Hit Enter.
 
+</br>
+
+# Access rights
+In Delphi, access to the Windows system directory (usually C:\Windows\System32) depends heavily on Windows user privileges (UAC), file system virtualization, and the 32-bit/64-bit architecture. Since modern versions of Windows block write access to this directory for standard users, you must explicitly adapt your application.
+
+Here are the key points and solutions for accessing the system directory or bypassing permission issues using Delphi:
+
+</br>
+
+
 # Virus false alarm:
 It's possible that your antivirus program will raise an alert after building the EXE file, as runtime linking should be enabled in this project. If you want to avoid this, you should disable it in the compiler project menu (see image).
 
