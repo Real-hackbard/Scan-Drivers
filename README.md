@@ -59,7 +59,7 @@ To modify the respective environment, only the parameter for the required functi
 You can also test the parameters manually in the Windows console by simply entering them, such as:
 
 ### Run rundll32 from the Run dialog:
-* Press the Windows key + R.
+* Press the Windows ```key+R```.
 * Type a command (e.g., ```rundll32.exe shell32.dll,Control_RunDLL``` to open the control panel).
 * Hit Enter.
 
