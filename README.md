@@ -23,7 +23,7 @@ This program demonstrates how to read the functions of a driver file and execute
 
 </br>
 
-![ScanDrivers](https://github.com/user-attachments/assets/7cd1a395-0569-46bd-8d53-091c30d99f8a)
+<img src="https://github.com/user-attachments/assets/3337f79f-59f7-4cbb-8668-3195f8598c48" />
 
 </br>
 
