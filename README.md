@@ -103,7 +103,9 @@ When the app is launched, Windows now automatically prompts the user to confirm 
 </br>
 
 # Virus false alarm:
-It's possible that your antivirus program will raise an alert after building the EXE file, as runtime linking should be enabled in this project. If you want to avoid this, you should disable it in the compiler project menu (see image).
+It's possible that your antivirus program will raise an alert after building the EXE file, as runtime linking should be enabled in this project. If you want to avoid this, you should disable it in the compiler project menu.
+
+..see Screenshot:
 
 </br>
 
